@@ -9,11 +9,9 @@ const Container = styled.div`
 	display: block;
 	padding-left: 16px;
 	padding-right: 16px;
-	overflow: hidden;
 	@media (min-width: ${({ theme: { breakPoints } }) => breakPoints.xs}px) {
 		padding-left: 24px;
 		padding-right: 24px;
-		overflow: auto;
 	}
 	@media (min-width: ${({ theme }) => theme.container}px) {
 		max-width: ${({ theme }) => theme.container}px;

@@ -9,7 +9,7 @@ export const MainContainerWrapper = styled.div`
 		@media (max-width: ${breakPoints.xs}px) {
 			border-radius: 0px;
 			padding: ${bg ? "24px 24px 36px" : "15px 24px 35px"}!important;
-			margin: 0 -24px;
+			margin: 0 -16px;
 		}
 	`}
 	${({ hiddenDown, theme: { breakPoints } }) =>
