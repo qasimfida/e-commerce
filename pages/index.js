@@ -71,7 +71,7 @@ export default function Home() {
 					gapSm={7}
 					gapXs={4}
 				/>
-				<Divider className="hiddenXs" />
+				<Divider />
 				<MainContainer
 					title="Trending"
 					onClick={onClick}

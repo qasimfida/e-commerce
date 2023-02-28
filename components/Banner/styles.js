@@ -104,4 +104,17 @@ export const ViewAllButton = styled(Button)`
 `;
 export const Flex = styled.div`
 	display: flex;
+	overflow: auto;
+	gap: 12px;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	&::-webkit-scrollbar-track {
+		display: none;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		display: none;
+	}
 `;

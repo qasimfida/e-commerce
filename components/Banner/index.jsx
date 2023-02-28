@@ -104,20 +104,23 @@ const Banner = () => {
 					</Img>
 				</Container>
 			</BannerWrapper>
-			<Flex className="hidden-sm mt-9">
-				<Chip label="Apple" count={88} className="float-r ml-3 mb-3" />
-				<Chip label="Samsung" count={88} className="float-r ml-3 mb-3" />
-				<Chip label="Xaiomi" count={88} className="float-r ml-3 mb-3" />
-				<ViewAllButton variant="black" className="px-3 ml-3">
-					All
-					<RightArrow
-						color="white"
-						className="ml-2 "
-						height="26px"
-						width="22px"
-					/>
-				</ViewAllButton>
-			</Flex>
+			<Container>
+				<Flex className="hidden-sm mt-9">
+					<Chip label="Apple" count={88} className="" />
+					<Chip label="Samsung" count={88} className="" />
+					<Chip label="Samsung" count={88} className="" />
+					<Chip label="Xaiomi" count={88} className="" />
+					<ViewAllButton variant="black" className="">
+						All
+						<RightArrow
+							color="white"
+							className="ml-2 "
+							height="26px"
+							width="22px"
+						/>
+					</ViewAllButton>
+				</Flex>
+			</Container>
 		</Wrapper>
 	);
 };
